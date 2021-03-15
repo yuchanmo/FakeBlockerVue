@@ -134,8 +134,8 @@
 import axios from 'axios'
 import { EventBus } from '../eventbus'
 
-let base_url = 'http://127.0.0.1:5000/'
-//let base_url = 'https://http://mojjijji.iptime.org:8888'
+//let base_url = 'http://127.0.0.1:5000/'
+let base_url = 'http://mojjijji.iptime.org:7777/'
 let api_urls = {
   detect: `${base_url}detect`,
   generate: `${base_url}generate`
